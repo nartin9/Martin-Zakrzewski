@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1810398324557632}
+  m_IsPrefabParent: 1
+--- !u!1 &1810398324557632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4720588201253734}
+  - component: {fileID: 114353907916396194}
+  m_Layer: 0
+  m_Name: ExampleStyle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4720588201253734
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1810398324557632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 457.76675, y: 398.7775, z: -3.326231}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114353907916396194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1810398324557632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f098ee4d8a3eb41ae215a54a16b6ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts:
+  - {fileID: 1462369805189014, guid: d7b6ca6ae20bb3443a10c7e29ccc3eed, type: 2}
+  - {fileID: 1515468006699276, guid: 05681e357ece6e043a534d5ec0163bb5, type: 2}
+  images:
+  - {fileID: 1922131012310168, guid: 04e6a002a0c38804d994b8a763bf75e5, type: 2}
+  - {fileID: 1053922968517024, guid: 9fdf1eed51e3d6a438cc38c3c344a3e7, type: 2}
+  buttons:
+  - {fileID: 1121084010683682, guid: c346acb1c2d805644b6d46e2a0d07bda, type: 2}
+  toggles:
+  - {fileID: 1064047587079496, guid: 5d3536182d348044ca158f16ecdcfb53, type: 2}
+  sliders:
+  - {fileID: 1320144273401312, guid: 33226476c07555244adaf59826db1ef0, type: 2}
+  scrollViews:
+  - {fileID: 1543774781012280, guid: ec447b7655f39f8469dac697e95d786f, type: 2}
+  scrollBars:
+  - {fileID: 1318869212124350, guid: 0386eed75bdb9c045a4e6ddc380940c8, type: 2}
+  dropdowns:
+  - {fileID: 1673385526983580, guid: 4d97b5eb3db9a1f45aebaf3b9204f480, type: 2}
+  inputFields:
+  - {fileID: 1682160446233268, guid: bb7ae40558a36cb4f8b4baafde68c734, type: 2}
